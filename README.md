@@ -1,2 +1,2 @@
 # xe3jac.github.io
-XE3JAC Projects
+XE3JAC Ham Radio Operator
