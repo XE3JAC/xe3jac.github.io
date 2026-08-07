@@ -1,6 +1,10 @@
 # XE3JAC — José Antonio Castañeda Audiffred
 
 <p align="center">
+  <img src="images/Placa.png" alt="XE3JAC Puebla" width="260">
+</p>
+
+<p align="center">
   <strong>Radioaficionado · Informática · Electrónica · APRS · SDR · Raspberry Pi · Open Source</strong><br>
   Puebla, México 🇲🇽
 </p>
@@ -11,97 +15,122 @@
 
 Soy **José Antonio Castañeda Audiffred — XE3JAC**, radioaficionado mexicano y entusiasta de la informática, la electrónica, las comunicaciones digitales y la experimentación.
 
-Soy **Licenciado en Informática** y **Maestro en Migración de Sistemas Computacionales**. Una parte importante de mi actividad en radio consiste en experimentar, construir, restaurar y documentar sistemas que combinan radiofrecuencia, software, redes, microcontroladores y electrónica.
+Soy **Licenciado en Informática** y **Maestro en Migración de Sistemas Computacionales**. Mi estación de radio es también un laboratorio donde conviven RF, software, redes, microcontroladores, restauración de equipos e impresión 3D.
 
-### Membresías y comunidades
+### Soy miembro de
 
-- Federación Mexicana de Radio Experimentadores
-- Alfa Delta DX Group — **10AD1986**
-- HamSphere — **XE3JAC**
+- **Federación Mexicana de Radio Experimentadores**
+- **Alfa Delta DX Group — 10AD1986**
+- **HamSphere — XE3JAC**
 
-## 📻 Mi estación y proyectos
+## 📻 Radio Shack
 
-Mi shack ha evolucionado con los años y funciona también como laboratorio de experimentación. Entre los proyectos y tecnologías que utilizo se encuentran:
+Mi Shack ha evolucionado constantemente. Integra equipos HF/VHF/UHF, nodos digitales, servidores de radio, receptores SDR, proyectos APRS y herramientas para electrónica e impresión 3D.
 
-**APRS / WX · DMR · NXDN · EchoLink · AllStarLink · DAPNET · TinyGS · RTL-SDR · OpenWebRX+ · DireWolf · LoRa APRS · Raspberry Pi · ESP8266 · impresión 3D aplicada a radio.**
+<p align="center">
+  <img src="images/20231214_215033.jpg" width="48%" alt="Shack XE3JAC">
+  <img src="images/20231214_215107.jpg" width="48%" alt="Shack XE3JAC">
+</p>
 
-![Shack XE3JAC](images/20231214_214939.jpg)
+## 📡 APRS / WX
 
-## 📡 APRS, iGate y estaciones meteorológicas
+Trabajo con diferentes proyectos APRS, incluyendo **LoRa en 433 MHz**, APRS en **144.390 MHz**, estaciones meteorológicas e iGate.
 
-He trabajado con diferentes implementaciones APRS, tanto en VHF como mediante LoRa, además de estaciones meteorológicas e iGate.
+<p align="center"><img src="images/aprs.jpg" alt="Proyecto APRS WX" width="650"></p>
 
-Uno de mis proyectos actuales es **Indy Open APRS**, orientado a mantener y documentar una plataforma abierta para APRS/iGate basada en ESP8266 y hardware compatible con la familia TA1KNN.
+**Proyecto APRS/WX de Indy APRS.**
 
-![Proyecto APRS](images/indy_open_aprs_128x64.png)
+Uno de los proyectos actuales es [**Indy Open APRS**](https://github.com/XE3JAC/IndyOpen-APRS-Project), orientado a mantener una plataforma APRS/iGate abierta, documentada y actualizable.
 
-## 🌐 Modos digitales e infraestructura
+## 🌐 DMR / NXDN / EchoLink / AllStarLink
 
-Trabajo y experimento con **DMR, NXDN, EchoLink, AllStarLink** y otros sistemas de comunicación por radio y redes IP. También he operado infraestructura UHF para el área de Cuautlancingo, Puebla.
+<p align="center"><img src="images/Ids.jpg" alt="DMR NXDN" width="460"></p>
+
+También experimento con **DMR, NXDN, EchoLink y AllStarLink**, además de infraestructura UHF para el área de Cuautlancingo, Puebla.
+
+<p align="center"><img src="images/repe1.jpg" alt="Repetidor UHF XE3JAC" width="420"></p>
+
+**Repetidor UHF para el área de Cuautlancingo, Puebla, con enlaces EchoLink y AllStarLink; relacionado con Radio Pasillo Poblano, proyecto de XE1TTS.**
 
 ### Zello
 
-El canal **REPETIDOR XE3JAC** permite escuchar parte de la actividad mediante Zello.
+El canal **REPETIDOR XE3JAC** puede agregarse en Zello.
 
-**Canal:** `REPETIDOR XE3JAC`
+<p align="center"><img src="images/ZELLO.jpg" alt="Código QR Zello XE3JAC" width="180"></p>
+
+https://on.zello.com/j5hdyu
 
 ## 📟 DAPNET
 
-También experimento con **DAPNET**, recuperando el concepto de los antiguos pagers/beepers y llevándolo a la radioafición actual.
+Recepción de mensajes como en los años 80: los famosos “beepers” mediante la red DAPNET.
 
-![DAPNET Pager XE3JAC](images/20240919_191037.jpg)
+<p align="center"><img src="images/20240919_191037.jpg" alt="Pager DAPNET" width="600"></p>
 
 Súmate a la red DAPNET: https://hampager.de
 
-## 🛰️ SDR, TinyGS y recepción
+## 🛰️ TinyGS · Weather Station · RTL-SDR / OpenWebRX+
 
-Entre mis proyectos de recepción se encuentran **RTL-SDR**, **OpenWebRX+**, **TinyGS** y diferentes sistemas basados en Raspberry Pi.
+- **TinyGS — XE3JAC**
+- **Weather Station / ThingSpeak**
+- **RTL-SDR / OpenWebRX+ — Puebla**
 
-![TinyGS](images/tinygs(1).jpg)
-![OpenWebRX](images/openweb(1).png)
+<p align="center">
+  <img src="images/tinygs.jpg" width="28%" alt="TinyGS">
+  <img src="images/thingspeak.png" width="28%" alt="ThingSpeak">
+  <img src="images/openweb.png" width="28%" alt="OpenWebRX">
+</p>
 
 ## 🔧 Electrónica, restauración y construcción
 
-Me gusta restaurar y modificar equipos de radio, además de construir interfaces y accesorios cuando no están disponibles comercialmente.
+Me gusta la electrónica, restaurar radios y construir interfaces o accesorios que necesito para mi estación.
 
-Entre estos trabajos se encuentra el desarrollo desde cero de una **interfaz IF-10 para el Kenwood TS-140S**, restauraciones de equipos y modificaciones de radios Quansheng UV-K5 para ampliar sus posibilidades de recepción.
+<p align="center">
+  <img src="images/keenuhf.jpg" width="31%" alt="Kenwood UHF">
+  <img src="images/quanhf.jpg" width="31%" alt="Quansheng UV-K5">
+  <img src="images/IMG_20241214_WA0053.jpeg" width="31%" alt="Interfaz IF-10">
+</p>
 
-![Interfaz y electrónica](images/panel(1).jpg)
-![Kenwood TS-140S](images/ts140(1).jpg)
+- Me gusta la electrónica y restaurar radios; este Kenwood UHF fue preparado para uno de los repetidores.
+- Modificación de radios Quansheng UV-K5 para la recepción de bandas HF y más.
+- Desarrollo desde cero de una interfaz IF-10 para mi radio Kenwood TS-140S.
 
 ## 🕰️ Drake TR-4C / RV-4C — historia familiar
 
-Una parte especialmente importante de mi estación es el conjunto **Drake TR-4C y RV-4C**, originalmente de **XE3Z — José Antonio Castañeda Melgoza**. Además de ser equipos clásicos de radio, representan una parte de la historia familiar dentro de la radioafición.
+El conjunto **Drake TR-4C y RV-4C** perteneció a **XE3Z — José Antonio Castañeda Melgoza**. Hoy forma parte de mi estación y conserva una parte importante de la historia familiar dentro de la radioafición.
 
-![Drake TR-4C y RV-4C](images/2679615508_4287276424106419272_n.jpg)
+<p align="center"><img src="images/2679615508_4287276424106419272_n.jpg" alt="Drake TR-4C y RV-4C" width="780"></p>
 
 ## 🖨️ Impresión 3D aplicada a radio
 
-La impresión 3D se convirtió en otra herramienta del shack. La utilizo para fabricar cajas, soportes, accesorios y piezas para proyectos electrónicos y de radio.
+<p align="center"><img src="images/3d.jpg" alt="Primera impresora 3D" width="520"></p>
 
-![Impresión 3D](images/3d.jpg)
+**Mi primera impresora 3D, utilizada para imprimir accesorios de radio y muchos otros proyectos.**
 
-## 🏕️ POTA y operación portátil
+## 🏕️ POTA, antenas y energía
 
-También trabajo en soluciones para operación portátil, incluyendo **Battery Box**, antenas **End Fed para 10, 15, 20 y 40 metros** y adaptaciones para equipos como el Icom IC-7300 y Kenwood TS-140S.
+<p align="center">
+  <img src="images/IMG_20260718_WA0061.jpeg" width="31%" alt="Battery Box POTA">
+  <img src="images/IMG_20260709_WA0045.jpeg" width="31%" alt="Antena End Fed">
+  <img src="images/7300.jpg" width="31%" alt="Icom IC-7300">
+</p>
 
-![Icom IC-7300](images/7300.jpg)
-
-## 🧪 Filosofía de experimentación
-
-La radioafición para mí es mucho más que hablar por radio: es experimentar, aprender, reparar, construir, programar y compartir.
-
-Este perfil reúne proyectos que mezclan **radio + electrónica + software + redes + impresión 3D** y que seguirán evolucionando.
+- Battery Box para operación P.O.T.A.
+- Antena End Fed para las bandas de 10, 15, 20 y 40 metros.
+- Icom IC-7300 — modificación de batería / alimentación para operación portátil.
+- Kenwood TS-140S — modificación de batería / alimentación.
 
 ## 🔗 Enlaces
 
-- QRZ: https://www.qrz.com/db/XE3JAC
-- GitHub: https://github.com/XE3JAC
-- DAPNET: https://hampager.de
-- Indy Open APRS: https://github.com/XE3JAC/IndyOpen-APRS-Project
+- [QRZ — XE3JAC](https://www.qrz.com/db/XE3JAC)
+- [GitHub — XE3JAC](https://github.com/XE3JAC)
+- [Indy Open APRS](https://github.com/XE3JAC/IndyOpen-APRS-Project)
+- [TinyGS — XE3JAC](https://app.tinygs.com/station/XE3JAC@5666652471)
+- [Weather Station — ThingSpeak](https://thingspeak.com/channels/2357494)
+- [DAPNET](https://hampager.de)
+- [Zello — REPETIDOR XE3JAC](https://on.zello.com/j5hdyu)
 
 ---
 
 <p align="center">
-  <strong>Gracias por tu visita — 73's de XE3JAC</strong>
+  <strong>Gracias por tu visita. 73's de XE3JAC</strong>
 </p>
