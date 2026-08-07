@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="XE3JAC — Radioafición, electrónica, APRS, SDR, Raspberry Pi y proyectos experimentales desde Puebla, México.">
+<title>XE3JAC — José Antonio Castañeda Audiffred</title>
+<style>
+:root{--bg:#071015;--panel:#0d1b22;--panel2:#10252d;--text:#eaf6f7;--muted:#9db4b8;--accent:#42d7df;--accent2:#f3b63f;--line:#1d3b43}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65}
+a{color:var(--accent)} .wrap{width:min(1120px,calc(100% - 34px));margin:auto}
+.hero{min-height:82vh;display:grid;place-items:center;position:relative;overflow:hidden;background:linear-gradient(90deg,rgba(3,12,16,.94),rgba(3,12,16,.58)),url('images/20231214_214939.jpg') center/cover}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:170px;background:linear-gradient(transparent,var(--bg))}
+.hero-inner{position:relative;z-index:1;width:min(1120px,calc(100% - 34px));padding:70px 0}
+.call{font-size:clamp(4.2rem,16vw,10rem);line-height:.8;margin:0;letter-spacing:-.07em;color:white;text-shadow:0 0 28px rgba(66,215,223,.22)}
+.kicker{color:var(--accent);text-transform:uppercase;letter-spacing:.18em;font-weight:800}
+.subtitle{font-size:clamp(1.15rem,2.5vw,1.65rem);max-width:780px;color:#d6e8ea}
+.badges{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px} .badge{border:1px solid #2e5963;border-radius:999px;padding:7px 12px;background:rgba(10,31,38,.72)}
+nav{position:sticky;top:0;z-index:5;background:rgba(7,16,21,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)} nav .wrap{display:flex;gap:18px;overflow:auto;padding:12px 0} nav a{text-decoration:none;white-space:nowrap;color:#d8eaec;font-weight:700}
+section{padding:72px 0} h2{font-size:clamp(2rem,5vw,3.4rem);margin:0 0 16px;letter-spacing:-.04em} h3{color:var(--accent);margin-bottom:6px} .lead{font-size:1.18rem;color:#c4d7da;max-width:850px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px} .card{background:linear-gradient(145deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:20px;padding:24px}
+.card img,.feature img{width:100%;border-radius:14px;display:block;max-height:520px;object-fit:cover} .feature{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
+.timeline{border-left:2px solid #25515b;padding-left:24px} .timeline article{margin:0 0 32px} .year{color:var(--accent2);font-weight:900;font-size:1.25rem}
+.quote{border-left:4px solid var(--accent);padding:15px 20px;background:#0b2027;border-radius:0 14px 14px 0;font-size:1.2rem}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px} figure{margin:0;background:#0c1b21;border:1px solid var(--line);border-radius:14px;overflow:hidden} figure img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block} figcaption{padding:8px 10px;color:var(--muted);font-size:.78rem}
+.links{display:flex;flex-wrap:wrap;gap:10px} .button{display:inline-block;text-decoration:none;background:var(--accent);color:#041014;padding:11px 16px;border-radius:10px;font-weight:900} .button.alt{background:transparent;color:var(--accent);border:1px solid #2f6974}
+footer{border-top:1px solid var(--line);padding:38px 0 55px;color:var(--muted);text-align:center}
+@media(max-width:800px){.grid,.feature{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.hero{min-height:70vh}}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="hero-inner">
+   <div class="kicker">Puebla, México · Amateur Radio</div>
+   <h1 class="call">XE3JAC</h1>
+   <p class="subtitle">José Antonio Castañeda Audiffred — radioafición, informática, electrónica, APRS, SDR, redes, Raspberry Pi, microcontroladores e impresión 3D.</p>
+   <div class="badges"><span class="badge">APRS / WX</span><span class="badge">DMR / NXDN</span><span class="badge">AllStarLink</span><span class="badge">EchoLink</span><span class="badge">DAPNET</span><span class="badge">TinyGS</span><span class="badge">OpenWebRX+</span><span class="badge">POTA</span></div>
+ </div>
+</header>
+<nav><div class="wrap"><a href="#bio">Bio</a><a href="#shack">Shack</a><a href="#proyectos">Proyectos</a><a href="#historia">Historia</a><a href="#galeria">Galería</a><a href="#links">Enlaces</a></div></nav>
+
+<main>
+<section id="bio"><div class="wrap">
+ <div class="kicker">Sobre XE3JAC</div><h2>Radio, electrónica y experimentación</h2>
+ <p class="lead">Soy José Antonio Castañeda Audiffred, XE3JAC. Soy Licenciado en Informática y Maestro en Migración de Sistemas Computacionales. Mi estación es también un laboratorio donde conviven radiofrecuencia, software, redes, electrónica, microcontroladores y fabricación digital.</p>
+ <div class="grid">
+  <div class="card"><h3>Formación</h3><p>Licenciado en Informática.<br>Maestro en Migración de Sistemas Computacionales.</p></div>
+  <div class="card"><h3>Comunidades</h3><p>Federación Mexicana de Radio Experimentadores<br>Alfa Delta DX Group — <strong>10AD1986</strong><br>HamSphere — <strong>XE3JAC</strong></p></div>
+ </div>
+</div></section>
+
+<section id="shack"><div class="wrap">
+ <div class="feature">
+  <div><img src="images/20231214_214939.jpg" alt="Radio Shack XE3JAC"></div>
+  <div><div class="kicker">Radio Shack</div><h2>Una estación que nunca deja de evolucionar</h2><p>El shack ha cambiado a través de los años incorporando equipos HF/VHF/UHF, nodos digitales, servidores de radio, receptores SDR, proyectos APRS y herramientas de electrónica e impresión 3D.</p><p>Más que una colección de radios, es un espacio para experimentar, reparar, construir y aprender.</p></div>
+ </div>
+</div></section>
+
+<section id="proyectos"><div class="wrap">
+ <div class="kicker">Experimentación</div><h2>Proyectos y tecnologías</h2>
+ <div class="grid">
+  <div class="card"><h3>APRS / WX / Indy Open APRS</h3><img src="images/indy_open_aprs_128x64.png" alt="APRS"><p>Implementaciones APRS en VHF y LoRa, estaciones meteorológicas e iGate. Indy Open APRS continúa esta línea con una plataforma abierta y documentada.</p></div>
+  <div class="card"><h3>DMR · NXDN · EchoLink · AllStarLink</h3><img src="images/repe1(1).jpg" alt="Repetidor"><p>Experimentación con modos digitales e integración entre radio y redes IP, incluyendo infraestructura UHF en el área de Cuautlancingo, Puebla.</p></div>
+  <div class="card"><h3>DAPNET</h3><img src="images/20240919_191037.jpg" alt="Pager DAPNET"><p>Recepción de mensajes al estilo de los beepers de los años 80 mediante la red DAPNET para radioaficionados.</p></div>
+  <div class="card"><h3>SDR · TinyGS · OpenWebRX+</h3><img src="images/tinygs(1).jpg" alt="Recepción digital"><p>Recepción y experimentación con RTL-SDR, TinyGS, OpenWebRX+ y sistemas basados en Raspberry Pi.</p></div>
+  <div class="card"><h3>Electrónica y restauración</h3><img src="images/panel(1).jpg" alt="Electrónica"><p>Restauración de radios, modificaciones y construcción de interfaces, incluida una interfaz IF-10 desarrollada desde cero para el Kenwood TS-140S.</p></div>
+  <div class="card"><h3>Impresión 3D</h3><img src="images/3d.jpg" alt="Impresión 3D"><p>Diseño y fabricación de cajas, soportes y accesorios para radio y electrónica.</p></div>
+ </div>
+</div></section>
+
+<section id="historia"><div class="wrap">
+ <div class="kicker">Historia y memoria</div><h2>Drake TR-4C / RV-4C</h2>
+ <div class="feature">
+  <div><img src="images/2679615508_4287276424106419272_n.jpg" alt="Drake TR-4C y RV-4C"></div>
+  <div><p class="lead">El conjunto Drake TR-4C y RV-4C perteneció a <strong>XE3Z — José Antonio Castañeda Melgoza</strong>. Hoy forma parte de mi estación y representa mucho más que un equipo clásico: conserva una parte de la historia familiar dentro de la radioafición.</p><div class="quote">La radioafición también es preservar, restaurar y transmitir historias.</div></div>
+ </div>
+</div></section>
+
+<section><div class="wrap">
+ <div class="kicker">Operación portátil</div><h2>POTA, antenas y energía</h2>
+ <p class="lead">Entre los proyectos portátiles se encuentran Battery Box, antenas End Fed para 10, 15, 20 y 40 metros y adaptaciones de alimentación para equipos como el Icom IC-7300 y Kenwood TS-140S.</p>
+ <div class="feature"><img src="images/7300.jpg" alt="Icom IC-7300"><div><h3>Construir para operar</h3><p>Parte del atractivo de la radio está en preparar nuestras propias soluciones para salir al aire, experimentar y mejorar cada montaje.</p></div></div>
+</div></section>
+
+<section id="galeria"><div class="wrap">
+ <div class="kicker">Archivo fotográfico</div><h2>Galería XE3JAC</h2>
+ <p class="lead">Fotografías recuperadas de la biografía y proyectos de XE3JAC. Esta galería conserva tanto proyectos recientes como parte de la evolución histórica del shack.</p>
+ <div class="gallery"><figure><img src="images/3d.jpg" loading="lazy" alt="3d(2)"><figcaption>3d(2)</figcaption></figure>
+<figure><img src="images/IMG_20250524_WA0337.jpeg" loading="lazy" alt="IMG_20250524_WA0337"><figcaption>IMG 20250524 WA0337</figcaption></figure>
+<figure><img src="images/IMG_20250308_WA0010.jpeg" loading="lazy" alt="IMG_20250308_WA0010(1)"><figcaption>IMG 20250308 WA0010(1)</figcaption></figure>
+<figure><img src="images/20240919_191037.jpg" loading="lazy" alt="20240919_191037"><figcaption>20240919 191037</figcaption></figure>
+<figure><img src="images/indy_open_aprs_128x64.png" loading="lazy" alt="indy_open_aprs_128x64"><figcaption>indy open aprs 128x64</figcaption></figure>
+<figure><img src="images/xe3jac_pager(1).png" loading="lazy" alt="xe3jac_pager(1)"><figcaption>xe3jac pager(1)</figcaption></figure>
+<figure><img src="images/ant2.jpg" loading="lazy" alt="ant2(3)"><figcaption>ant2(3)</figcaption></figure>
+<figure><img src="images/Ids.jpg" loading="lazy" alt="Ids"><figcaption>Ids</figcaption></figure>
+<figure><img src="images/20231214_215107.jpg" loading="lazy" alt="20231214_215107(2)"><figcaption>20231214 215107(2)</figcaption></figure>
+<figure><img src="images/XE3JAC(1).png" loading="lazy" alt="XE3JAC(1)"><figcaption>XE3JAC(1)</figcaption></figure>
+<figure><img src="images/20240919_191037.jpg" loading="lazy" alt="20240919_191037(2)"><figcaption>20240919 191037(2)</figcaption></figure>
+<figure><img src="images/thingspeak(1).png" loading="lazy" alt="thingspeak(1)"><figcaption>thingspeak(1)</figcaption></figure>
+<figure><img src="images/aprs2.jpg" loading="lazy" alt="aprs2(3)"><figcaption>aprs2(3)</figcaption></figure>
+<figure><img src="images/4cc709aa67cf4d048ae486e68c456631.jpg" loading="lazy" alt="4cc709aa67cf4d048ae486e68c456631"><figcaption>4cc709aa67cf4d048ae486e68c456631</figcaption></figure>
+<figure><img src="images/repe1(1).jpg" loading="lazy" alt="repe1(1)"><figcaption>repe1(1)</figcaption></figure>
+<figure><img src="images/ant2.jpg" loading="lazy" alt="ant2"><figcaption>ant2</figcaption></figure>
+<figure><img src="images/4cc709aa67cf4d048ae486e68c456631.jpg" loading="lazy" alt="4cc709aa67cf4d048ae486e68c456631(2)"><figcaption>4cc709aa67cf4d048ae486e68c456631(2)</figcaption></figure>
+<figure><img src="images/IMG_20241214_WA0053.jpeg" loading="lazy" alt="IMG_20241214_WA0053(1)"><figcaption>IMG 20241214 WA0053(1)</figcaption></figure>
+<figure><img src="images/ant1.jpg" loading="lazy" alt="ant1(3)"><figcaption>ant1(3)</figcaption></figure>
+<figure><img src="images/IMG_20260718_WA0061.jpeg" loading="lazy" alt="IMG_20260718_WA0061"><figcaption>IMG 20260718 WA0061</figcaption></figure>
+<figure><img src="images/echolink_1.jpg" loading="lazy" alt="echolink_1(3)"><figcaption>echolink 1(3)</figcaption></figure>
+<figure><img src="images/openweb(1).png" loading="lazy" alt="openweb(1)"><figcaption>openweb(1)</figcaption></figure>
+<figure><img src="images/7300.jpg" loading="lazy" alt="7300"><figcaption>7300</figcaption></figure>
+<figure><img src="images/20231214_215033.jpg" loading="lazy" alt="20231214_215033(2)"><figcaption>20231214 215033(2)</figcaption></figure>
+<figure><img src="images/QSL1.jpg" loading="lazy" alt="QSL1"><figcaption>QSL1</figcaption></figure>
+<figure><img src="images/Ids.jpg" loading="lazy" alt="Ids(1)"><figcaption>Ids(1)</figcaption></figure>
+<figure><img src="images/keenuhf(1).jpg" loading="lazy" alt="keenuhf(1)"><figcaption>keenuhf(1)</figcaption></figure>
+<figure><img src="images/IMG_20250308_WA0010.jpeg" loading="lazy" alt="IMG_20250308_WA0010"><figcaption>IMG 20250308 WA0010</figcaption></figure>
+<figure><img src="images/20231214_215107.jpg" loading="lazy" alt="20231214_215107"><figcaption>20231214 215107</figcaption></figure>
+<figure><img src="images/20231214_214939.jpg" loading="lazy" alt="20231214_214939(2)"><figcaption>20231214 214939(2)</figcaption></figure>
+<figure><img src="images/2679615508_4287276424106419272_n.jpg" loading="lazy" alt="2679615508_4287276424106419272_n(2)"><figcaption>2679615508 4287276424106419272 n(2)</figcaption></figure>
+<figure><img src="images/quanhf(1).jpg" loading="lazy" alt="quanhf(1)"><figcaption>quanhf(1)</figcaption></figure>
+<figure><img src="images/panel(1).jpg" loading="lazy" alt="panel(1)"><figcaption>panel(1)</figcaption></figure>
+<figure><img src="images/echolink_1.jpg" loading="lazy" alt="echolink_1"><figcaption>echolink 1</figcaption></figure>
+<figure><img src="images/2679615508_4287276424106419272_n.jpg" loading="lazy" alt="2679615508_4287276424106419272_n"><figcaption>2679615508 4287276424106419272 n</figcaption></figure>
+<figure><img src="images/3d.jpg" loading="lazy" alt="3d"><figcaption>3d</figcaption></figure>
+<figure><img src="images/APRS.jpg" loading="lazy" alt="APRS(2)"><figcaption>APRS(2)</figcaption></figure>
+<figure><img src="images/IMG_20260709_WA0045.jpeg" loading="lazy" alt="IMG_20260709_WA0045"><figcaption>IMG 20260709 WA0045</figcaption></figure>
+<figure><img src="images/echolink.jpg" loading="lazy" alt="echolink(3)"><figcaption>echolink(3)</figcaption></figure>
+<figure><img src="images/echolink.jpg" loading="lazy" alt="echolink"><figcaption>echolink</figcaption></figure>
+<figure><img src="images/20231214_214939.jpg" loading="lazy" alt="20231214_214939"><figcaption>20231214 214939</figcaption></figure>
+<figure><img src="images/ant1.jpg" loading="lazy" alt="ant1"><figcaption>ant1</figcaption></figure>
+<figure><img src="images/IMG_20231108_WA0112.jpg" loading="lazy" alt="IMG_20231108_WA0112"><figcaption>IMG 20231108 WA0112</figcaption></figure>
+<figure><img src="images/repe2(1).jpg" loading="lazy" alt="repe2(1)"><figcaption>repe2(1)</figcaption></figure>
+<figure><img src="images/QSL_Atras(1).jpg" loading="lazy" alt="QSL_Atras(1)"><figcaption>QSL Atras(1)</figcaption></figure>
+<figure><img src="images/IMG_20250327_WA0047.jpeg" loading="lazy" alt="IMG_20250327_WA0047"><figcaption>IMG 20250327 WA0047</figcaption></figure>
+<figure><img src="images/aprs2.jpg" loading="lazy" alt="aprs2"><figcaption>aprs2</figcaption></figure>
+<figure><img src="images/APRS.jpg" loading="lazy" alt="APRS"><figcaption>APRS</figcaption></figure>
+<figure><img src="images/IMG_20231108_WA0112.jpg" loading="lazy" alt="IMG_20231108_WA0112(1)"><figcaption>IMG 20231108 WA0112(1)</figcaption></figure>
+<figure><img src="images/ts140(1).jpg" loading="lazy" alt="ts140(1)"><figcaption>ts140(1)</figcaption></figure>
+<figure><img src="images/ZELLO(1).jpg" loading="lazy" alt="ZELLO(1)"><figcaption>ZELLO(1)</figcaption></figure>
+<figure><img src="images/20231214_215033.jpg" loading="lazy" alt="20231214_215033"><figcaption>20231214 215033</figcaption></figure>
+<figure><img src="images/7300.jpg" loading="lazy" alt="7300(2)"><figcaption>7300(2)</figcaption></figure>
+<figure><img src="images/tinygs(1).jpg" loading="lazy" alt="tinygs(1)"><figcaption>tinygs(1)</figcaption></figure>
+<figure><img src="images/QSLS2(1).jpg" loading="lazy" alt="QSLS2(1)"><figcaption>QSLS2(1)</figcaption></figure>
+<figure><img src="images/IMG_20250517_WA0072.jpeg" loading="lazy" alt="IMG_20250517_WA0072"><figcaption>IMG 20250517 WA0072</figcaption></figure>
+<figure><img src="images/Placa.png" loading="lazy" alt="Placa"><figcaption>Placa</figcaption></figure>
+<figure><img src="images/IMG_20241214_WA0053.jpeg" loading="lazy" alt="IMG_20241214_WA0053"><figcaption>IMG 20241214 WA0053</figcaption></figure></div>
+</div></section>
+
+<section id="links"><div class="wrap">
+ <div class="kicker">73's</div><h2>Enlaces</h2>
+ <div class="links">
+  <a class="button" href="https://www.qrz.com/db/XE3JAC">QRZ — XE3JAC</a>
+  <a class="button alt" href="https://github.com/XE3JAC">GitHub</a>
+  <a class="button alt" href="https://github.com/XE3JAC/IndyOpen-APRS-Project">Indy Open APRS</a>
+  <a class="button alt" href="https://hampager.de">DAPNET</a>
+ </div>
+ <p style="margin-top:35px" class="lead"><strong>Gracias por tu visita. 73's de XE3JAC.</strong></p>
+</div></section>
+</main>
+<footer><div class="wrap">XE3JAC · José Antonio Castañeda Audiffred · Puebla, México</div></footer>
+</body>
+</html>
