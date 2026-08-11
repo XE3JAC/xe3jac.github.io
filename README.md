@@ -1,10 +1,6 @@
 # XE3JAC — José Antonio Castañeda Audiffred
 
 <p align="center">
-  <img src="images/Placa.png" alt="XE3JAC Puebla" width="260">
-</p>
-
-<p align="center">
   <strong>Radioaficionado · Informática · Electrónica · APRS · SDR · Raspberry Pi · Open Source</strong><br>
   Puebla, México 🇲🇽
 </p>
@@ -62,10 +58,6 @@ Uno de los proyectos actuales es [**Indy Open APRS**](https://github.com/XE3JAC/
 También experimento con **DMR, NXDN, EchoLink y AllStarLink**, además de infraestructura UHF para el área de Cuautlancingo, Puebla.
 
 <p align="center">
-  <img src="images/Ids.jpg" alt="DMR NXDN" width="460">
-</p>
-
-<p align="center">
   <img src="images/repe1.jpg" alt="Repetidor UHF XE3JAC" width="420">
 </p>
 
@@ -84,12 +76,6 @@ Recepción de mensajes como en los años 80: los famosos **“beepers”** media
 - **TinyGS — XE3JAC**
 - **Weather Station / ThingSpeak**
 - **RTL-SDR / OpenWebRX+ — Puebla**
-
-<p align="center">
-  <img src="images/tinygs.jpg" width="28%" alt="TinyGS">
-  <img src="images/thingspeak.png" width="28%" alt="ThingSpeak">
-  <img src="images/openweb.png" width="28%" alt="OpenWebRX">
-</p>
 
 ### 🖨️ Impresión 3D
 
@@ -129,7 +115,6 @@ El conjunto **Drake TR-4C y RV-4C** perteneció a **XE3Z — José Antonio Casta
 
 <p align="center">
   <img src="images/IMG_20260718_WA0061.jpeg" width="31%" alt="Battery Box POTA">
-  <img src="images/IMG_20260709_WA0045.jpeg" width="31%" alt="Antena End Fed">
   <img src="images/7300.jpg" width="31%" alt="Icom IC-7300">
 </p>
 
