@@ -36,7 +36,7 @@ Mi Shack ha ido integrando equipos **HF/VHF/UHF**, nodos digitales, servidores d
 Trabajo con proyectos APRS y WX, incluyendo experimentación con **LoRa en 433 MHz** y APRS en **VHF 144.390 MHz**.
 
 <p align="center">
-  <img src="images/aprs.jpg" alt="Proyecto APRS WX" width="650">
+  <img src="images/APRS.jpg" alt="Proyecto APRS WX" width="650">
 </p>
 
 También desarrollo y documento **Indy Open APRS**, como parte de una plataforma abierta y en evolución para radioaficionados.
