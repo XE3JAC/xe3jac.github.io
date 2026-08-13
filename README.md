@@ -124,8 +124,7 @@ El sitio web reúne fotografías del Shack y de distintos proyectos. Cada imagen
 ## Enlaces
 
 - [QRZ — XE3JAC](https://www.qrz.com/db/XE3JAC)
-- [GitHub — XE3JAC](https://github.com/XE3JAC)
-- [Indy Open - Projects](https://github.com/XE3JAC)
+- [GitHub Indy Open - Projects](https://github.com/XE3JAC)
 - [TinyGS — XE3JAC](https://app.tinygs.com/station/XE3JAC@5666652471)
 - [Weather Station — ThingSpeak](https://thingspeak.com/channels/2357494)
 - [Zello](https://on.zello.com/j5hdyu)
